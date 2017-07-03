@@ -1,7 +1,7 @@
 
 class Metadata(object):
     name = "netception",
-    version = "0.0.0",
+    version = "0.1.0",
     description = "A neural network inception library",
     author = "Philippe Trempe",
     author_email = "ph.trempe@gmail.com",
