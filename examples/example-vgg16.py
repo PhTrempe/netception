@@ -21,7 +21,7 @@ if __name__ == "__main__":
     target = model.get_layer("block5_conv3").output[:, :, :, 455]
 
     # Create an inceptor and configure it
-    # (Here, we create an inceptor with out model and target. We also set an
+    # (Here, we create an inceptor with our model and target. We also set an
     # inception rate of 0.25, a maximal number of steps of 50, and parameters
     # for early stopping if the inception score stops improving enough)
     inceptor = Inceptor(
