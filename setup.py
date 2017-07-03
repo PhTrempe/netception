@@ -16,5 +16,6 @@ if __name__ == "__main__":
         url=Metadata.repository_url,
         download_url=Metadata.download_url,
         keywords=Metadata.keywords,
-        packages=find_packages()
+        requires=Metadata.requires,
+        packages=find_packages(),
     )

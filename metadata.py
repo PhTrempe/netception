@@ -10,3 +10,4 @@ class Metadata(object):
     download_url = "https://github.com/PhTrempe/{}/archive/{}.tar.gz".format(
         name, version),
     keywords = ["neural", "network", "inception", "machine", "learning"]
+    requires = ["numpy", "keras"]
